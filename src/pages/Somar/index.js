@@ -19,7 +19,7 @@ setResp(resp.data.soma)
 
 return (
 <main>
-<h1>Somar (POST)</h1>
+<h1>Somar</h1>
 
 <div>
 Insira um número: <input type='text' value={numeroUm} onChange={e => setNumeroUm(Number(e.target.value))} />
@@ -34,7 +34,8 @@ Insira outro número: <input type='text' value={numeroDois} onChange={e => setNu
 </div>
 
 <div>
-Resultado: {resposta}
+Resultado: {resp}
 </div>
 </main>
 )
+}

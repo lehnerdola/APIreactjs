@@ -5,7 +5,7 @@ import CorPrimaria from './pages/corprimaria'
 import Frequencia from './pages/frequencia'
 import Ingresso from './pages/ingresso'
 import MaiorNumero from './pages/MaiorNumero'
-import Febre from './pages/Febre'
+import Somar from './pages/Somar'
 
 
 export default function  SiteRoutes(){
@@ -17,7 +17,7 @@ export default function  SiteRoutes(){
                     <Route path='/frequencia' element={<Frequencia/>} />
                     <Route path='/ingresso' element={<Ingresso/>} />
                     <Route path='/MaiorNumero' element={<MaiorNumero/>} />
-                    <Route path='/Febre' element={<Febre/>} />
+                    <Route path='/Somar' element={<Somar/>} />
                 </Routes>
         </BrowserRouter>
     )
