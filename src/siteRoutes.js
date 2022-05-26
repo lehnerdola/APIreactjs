@@ -6,6 +6,8 @@ import Frequencia from './pages/frequencia'
 import Ingresso from './pages/ingresso'
 import MaiorNumero from './pages/MaiorNumero'
 import Somar from './pages/Somar'
+import Febre from './pages/Febre'
+
 
 
 export default function  SiteRoutes(){
@@ -18,6 +20,8 @@ export default function  SiteRoutes(){
                     <Route path='/ingresso' element={<Ingresso/>} />
                     <Route path='/MaiorNumero' element={<MaiorNumero/>} />
                     <Route path='/Somar' element={<Somar/>} />
+                    <Route path='/Febre' element={<Febre/>} />
+
                 </Routes>
         </BrowserRouter>
     )

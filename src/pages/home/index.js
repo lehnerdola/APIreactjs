@@ -12,6 +12,8 @@ export default function Index(){
                 <li> <Link to='/ingresso'> Preço dos ingressos </Link> </li>
                 <li> <Link to='/MaiorNumero'> Programa maior número </Link> </li>
                 <li> <Link to='/Somar'>Programa Somar</Link> </li>
+                <li> <Link to='/Febre'>Programa Febre</Link> </li>
+
 
             </ul>
 
