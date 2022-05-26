@@ -13,7 +13,7 @@ export default function Index(){
         }
 
         else{
-            setResposta('Não');
+            setResposta('Não'); ///Leticia fez essa parte
         }
     }
 

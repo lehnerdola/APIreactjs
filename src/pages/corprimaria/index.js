@@ -13,7 +13,7 @@ export default function Index(){
         }
 
         else{
-            setResposta('NÃO');
+            setResposta('NÃO');  ///João fez essa parte
         }
     }
 

@@ -6,6 +6,8 @@ export default function Index(){
             const [numero,setNumero] =useState(0);
             const [resposta,setResposta] =useState('');
 
+            ///Letícia fez essa
+
             function adicionar(){
                 setNumeros([...numeros, numero])
                 setNumero('');
@@ -14,8 +16,6 @@ export default function Index(){
             async function verificarMaior(){
                 const resp= await axios.post('http://localhost:5000/maiorNumero', numeros);
                 setResposta(resp.data.maior);
-
-
             }
     return(
         <main>

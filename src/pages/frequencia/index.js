@@ -11,7 +11,7 @@ export default function Index(){
             const resp = await axios.get(`http://localhost:5000/dia2/freqcaractere/${texto}/${Caractere}`)
             setResposta(resp.data.freq)
         }
-    return(
+    return(                                     ///João fez essa
         <main>
             <h1>Frequência</h1>
             <div>

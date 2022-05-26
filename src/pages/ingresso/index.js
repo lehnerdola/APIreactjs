@@ -10,6 +10,7 @@ export default function Index(){
     const [nacionalidade, setNacionalidade] = useState('');
     const [total, setTotal] = useState(0);
 
+    ///João fez essa
 
     async function Calcular(){
         const resp = await axios.post('http://localhost:5000/dia2/ingressocinema', 
